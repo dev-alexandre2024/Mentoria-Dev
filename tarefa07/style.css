@@ -120,4 +120,5 @@ section {
 footer {
     background-color: #1b2074;
     color: white;
+    display: inline-flex;
 }
