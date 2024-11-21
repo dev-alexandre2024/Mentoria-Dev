@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
- color:white;
+    color:white;
 }
 
 header {
@@ -60,19 +60,18 @@ section {
     width: 100vw;
     height: 100vh;
     min-height: 100%;
-
     padding-top: 120px;
     flex-direction: row;
 }
 
-#servicos {
+
+#home {
     background-image: url(img/HOME.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-#home {
-    background-image: url(img/HOME.png);
+#servicos {
+    background-image: url(img/servicos.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
