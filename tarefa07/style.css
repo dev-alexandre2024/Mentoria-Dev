@@ -55,7 +55,7 @@ main {
     width: 100%;
     height: auto;
 }
-
+    
 section {
     width: 100vw;
     height: 100vh;
@@ -65,4 +65,15 @@ section {
     flex-direction: row;
 }
 
+#servicos {
+    background-image: url(img/HOME.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home {
+    background-image: url(img/HOME.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 footer {}
