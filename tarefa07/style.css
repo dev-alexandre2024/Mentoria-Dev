@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color:white;
+    color: white;
 }
 
 header {
@@ -48,23 +48,29 @@ ul {
 }
 
 ul li {
+    width: 100px;
     padding: 5px;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
+    padding: 15px;
 }
-a:hover{
     
-    border:2px solid white;
-    padding: 5px;
-    border-radius: 10px;
+    a:hover {
+        
+        border: 2px solid white;
+        padding: 15px;
+        border-radius: 10px;
+        transition: 1s;
 }
+
 main {
     width: 100%;
     height: auto;
 }
-    
+
 section {
     width: 100vw;
     height: 100vh;
@@ -79,9 +85,14 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #servicos {
     background-image: url(img/servicos.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-footer {}
+
+footer {
+    background-color: #1b2074;
+    color: white;
+}
