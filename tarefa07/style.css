@@ -51,7 +51,10 @@ ul li {
     padding: 5px;
 }
 
-main {}
+main {
+    width: 100%;
+    height: auto;
+}
 
 section {
     width: 100vw;
