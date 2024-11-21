@@ -20,6 +20,19 @@ header {
     padding: 10px 0px;
 }
 
+.logo {
+    height: 100%;
+    width: 80px;
+    position: relative;
+    text-align: center;
+}
+
+.logomarca {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+}
+
 ul {
     display: inline-flex;
     margin: 20px;
@@ -44,17 +57,5 @@ section {
     padding-top: 120px;
     flex-direction: row;
 }
+
 footer {}
-.home{
-}
-.logo{
-    height: 100%;
-    width: 80px;
-    position: relative;
-    text-align: center;
-}
-.logomarca{
-    height: 90%;
-    width: 90%;
-    position: absolute;
-}
