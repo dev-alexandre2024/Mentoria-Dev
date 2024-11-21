@@ -47,3 +47,14 @@ section {
 footer {}
 .home{
 }
+.logo{
+    height: 100%;
+    width: 80px;
+    position: relative;
+    text-align: center;
+}
+.logomarca{
+    height: 90%;
+    width: 90%;
+    position: absolute;
+}
