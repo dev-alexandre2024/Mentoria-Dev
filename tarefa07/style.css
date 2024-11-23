@@ -53,22 +53,26 @@ ul li {
 }
 
 ul li:hover {
-    animation: cubo 1s;
+    animation: cubo 0.5s;
 }
 
 @keyframes cubo {
     0% {
         transform: rotate(0deg);
     }
+
     25% {
         transform: rotate(5deg);
     }
+
     50% {
         transform: rotate(0deg);
     }
+
     75% {
         transform: rotate(-5deg);
     }
+
     100% {
         transform: rotate(0deg);
     }
@@ -120,7 +124,17 @@ section {
 footer {
     background-color: #1b2074;
     color: white;
-    display:flex;
+    display: flex;
     width: 100%;
     justify-content: space-between;
+}
+
+.card {
+  width: 150px;
+  padding: 12px;
+  background-color: #3e0e58ca;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+  color: #dadada;
 }
