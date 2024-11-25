@@ -44,7 +44,7 @@ ul {
     line-height: 1.5;
     list-style: none;
     gap: 20px;
-
+    
 }
 
 ul li {
@@ -64,19 +64,20 @@ ul li:hover {
     25% {
         transform: rotate(5deg);
     }
-
+    
     50% {
         transform: rotate(0deg);
     }
-
+    
     75% {
         transform: rotate(-5deg);
     }
-
+    
     100% {
         transform: rotate(0deg);
     }
 }
+
 
 a {
     color: white;
@@ -98,6 +99,7 @@ a:hover {
 main {
     width: 100%;
     height: auto;
+    
 }
 
 section {
@@ -121,20 +123,30 @@ section {
     background-size: cover;
 }
 
-footer {
-    background-color: #1b2074;
-    color: white;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+.card {
+    width: 150px;
+    padding: 12px;
+    background-color: #3e0e58ca;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    color: #dadada;
 }
 
-.card {
-  width: 150px;
-  padding: 12px;
-  background-color: #3e0e58ca;
-  border: 1px solid white;
-  border-radius: 10px;
-  text-align: center;
-  color: #dadada;
-}
+    
+    footer {
+        background-color: #1b2074;
+        color: white;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    servicos-cards{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 10px;
+    }
