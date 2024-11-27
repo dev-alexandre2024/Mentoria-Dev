@@ -141,7 +141,7 @@ section {
         width: 100%;
         justify-content: space-between;
     }
-    servicos-cards{
+    .servicos-cards{
         width: 90%;
         height: auto;
         padding: 20px;
