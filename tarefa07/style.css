@@ -3,15 +3,21 @@
     margin: 0;
     padding: 0;
 }
-
+:root{
+    --branco:white;
+    --branco1:#dadada;
+    --cinza:#dadada30;
+    --roxo:#3e0e58ca;
+    --azul:#1b2074;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: white;
+    color: var(--branco);
 }
 
 header {
-    background-color: #dadada30;
+    background-color: var(--cinza);
     position: fixed;
     top: 0;
     left: 0;
@@ -80,7 +86,7 @@ ul li:hover {
 
 
 a {
-    color: white;
+    color: var(--branco);
     text-decoration: none;
     padding: 15px;
     border: 2px solid transparent;
@@ -89,7 +95,7 @@ a {
 }
 
 a:hover {
-    border: 2px solid white;
+    border: 2px solid  var(--branco);
     padding: 15px;
     border-radius: 10px;
     transition: 0.5s;
@@ -123,16 +129,6 @@ section {
     background-size: cover;
 }
 
-.card {
-    width: 150px;
-    padding: 12px;
-    background-color: #3e0e58ca;
-    border: 1px solid white;
-    border-radius: 10px;
-    text-align: center;
-    color: #dadada;
-}
-
 .servicos-cards {
     width: 90%;
     height: auto;
@@ -141,11 +137,35 @@ section {
     justify-content: space-evenly;
     align-items: center;
     gap: 10px;
+    margin: 0 auto;
+}
+.card {
+    width: 200px;
+    padding: 12px;
+    background-color:var(--azul);
+    border: 1px solid  var(--branco);
+    border-radius: 10px;
+    text-align: center;
+    color:var(--branco1);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 250px;
+}
+.conteudo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+    background-color: #1b2074;
+    color: var(--branco);
 }
 
 footer {
     background-color: #1b2074;
-    color: white;
+    color: var(--branco);
     display: flex;
     width: 100%;
     justify-content: space-between;
