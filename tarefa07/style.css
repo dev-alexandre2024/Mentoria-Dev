@@ -44,7 +44,7 @@ ul {
     line-height: 1.5;
     list-style: none;
     gap: 20px;
-    
+
 }
 
 ul li {
@@ -64,15 +64,15 @@ ul li:hover {
     25% {
         transform: rotate(5deg);
     }
-    
+
     50% {
         transform: rotate(0deg);
     }
-    
+
     75% {
         transform: rotate(-5deg);
     }
-    
+
     100% {
         transform: rotate(0deg);
     }
@@ -99,7 +99,7 @@ a:hover {
 main {
     width: 100%;
     height: auto;
-    
+
 }
 
 section {
@@ -133,7 +133,7 @@ section {
     color: #dadada;
 }
 
-.servicos-cards{
+.servicos-cards {
     width: 90%;
     height: auto;
     padding: 20px;
@@ -142,11 +142,11 @@ section {
     align-items: center;
     gap: 10px;
 }
-    
-    footer {
-        background-color: #1b2074;
-        color: white;
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-    }
+
+footer {
+    background-color: #1b2074;
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
