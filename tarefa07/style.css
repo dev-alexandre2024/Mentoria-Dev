@@ -142,7 +142,7 @@ section {
 .card {
     width: 200px;
     padding: 12px;
-    background-color:var(--azul);
+    background-color:var(--roxo);
     border: 1px solid  var(--branco);
     border-radius: 10px;
     text-align: center;
@@ -159,7 +159,7 @@ section {
     left: 0;
     z-index: 100;
     display: none;
-    background-color: #1b2074;
+    background-color: var(--azul);
     color: var(--branco);
 }
 
