@@ -152,6 +152,7 @@ section {
     align-items: center;
     position: relative;
     height: 250px;
+    cursor:pointer ;
 }
 .conteudo{
     position: absolute;
@@ -164,7 +165,7 @@ section {
 }
 
 footer {
-    background-color: #1b2074;
+    background-color: var(--azul);
     color: var(--branco);
     display: flex;
     width: 100%;
