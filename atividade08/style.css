@@ -30,15 +30,15 @@ body {
 .teste:hover {
     width: 190px;
     height: 190px;
+    border-radius: 10px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    background-color: red;
-    font-size: 25px;
-    color: white;
-    font-weight: bold;
     transition: 1s;
+    font-size: 25px;
+    font-weight: bold;
     transform: rotate(360deg);
+    background-color: red;
+    color: white;
 }
